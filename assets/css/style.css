@@ -14603,4 +14603,169 @@ body.white-version {
 .white-version .slider-style-6 .cd-headline span {
   color: var(--color-white) !important; }
 
+/* Updated CSS for description size */
+.description {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+/* New CSS for date */
+.date {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+
+
+/* Styling for the row containing social icons */
+.row-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the social share section */
+.social-share-inner-left-icons {
+  text-align: center;
+}
+
+/* Styling for the title */
+.title {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling for the social icons */
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: transparent; /* Set initial background color as transparent */
+  color: #fff; /* Default color of the icons */
+  border-radius: 50%; /* Make the icons circular */
+  transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+
+/* Styling for the LinkedIn icon */
+.linkedin-icon a {
+  background-color: #0077B5; /* Initial background color for LinkedIn */
+  /* You can add additional styles for the LinkedIn icon here if needed */
+  transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+
+/* Animation for hovering over LinkedIn icon */
+.linkedin-icon a:hover {
+  background-color: #0A66C2; /* Change background color on hover */
+  animation: pulse 0.5s ease infinite alternate; /* Add pulsating animation on hover */
+}
+
+/* Styling for the GitHub icon */
+.github-icon a {
+  background-color: #333; /* Initial background color for GitHub */
+  /* You can add additional styles for the GitHub icon here if needed */
+  transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+
+/* Animation for hovering over GitHub icon */
+.github-icon a:hover {
+  background-color: #6e5494; /* Change background color on hover */
+  animation: pulse 0.5s ease infinite alternate; /* Add pulsating animation on hover */
+}
+
+/* Styling for the LeetCode icon */
+.leetcode-icon a {
+  background-color: #f89f1b; /* Initial background color for LeetCode */
+  /* You can add additional styles for the LeetCode icon here if needed */
+  transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+
+/* Animation for hovering over LeetCode icon */
+.leetcode-icon a:hover {
+  background-color: #1e8bca; /* Change background color on hover */
+  animation: pulse 0.5s ease infinite alternate; /* Add pulsating animation on hover */
+}
+
+/* Styling for the YouTube icon */
+.youtube-icon a {
+  background-color: #FF0000; /* Initial background color for YouTube */
+  /* You can add additional styles for the YouTube icon here if needed */
+  transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+
+/* Animation for hovering over YouTube icon */
+.youtube-icon a:hover {
+  background-color: #c4302b; /* Change background color on hover */
+  animation: pulse 0.5s ease infinite alternate; /* Add pulsating animation on hover */
+}
+
+/* Styling for the HackerRank icon */
+.hackerrank-icon a {
+  background-color: #2EC866; /* Initial background color for HackerRank */
+  /* You can add additional styles for the HackerRank icon here if needed */
+  transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+
+/* Animation for hovering over HackerRank icon */
+.hackerrank-icon a:hover {
+  background-color: #1A9487; /* Change background color on hover */
+  animation: pulse 0.5s ease infinite alternate; /* Add pulsating animation on hover */
+}
+
+/* Styling for the Instagram icon */
+.instagram-icon a {
+  background-color: #E4405F; /* Initial background color for Instagram */
+  /* You can add additional styles for the Instagram icon here if needed */
+  transition: background-color 0.3s ease; /* Transition effect for smooth color change */
+}
+
+/* Animation for hovering over Instagram icon */
+.instagram-icon a:hover {
+  background-color: #bc2a8d; /* Change background color on hover */
+  animation: pulse 0.5s ease infinite alternate; /* Add pulsating animation on hover */
+}
+
+/* Pulsating animation */
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+
+/* Feather Icons size and appearance */
+.feather {
+  width: 24px;
+  height: 24px;
+}
+
+
+.subtitle {
+  color: red;
+}
+
+
 /*# sourceMappingURL=../maps/style.css.map */
