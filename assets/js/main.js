@@ -32,6 +32,21 @@
             
         },
 
+        incrementHeart: function () {
+            // Get the heart button and heart count elements
+            const heartButton = document.getElementById('heartButton');
+            const heartCount = document.getElementById('heartCount');
+        
+            // Add event listener to the heart button
+            heartButton.addEventListener('click', function () {
+                // Get the current count and increment it
+                let count = parseInt(heartCount.innerText);
+                count++;
+        
+                // Update the heart count
+                heartCount.innerText = count;
+            });
+        },
         
         activePopupDemo: function (e) {
             $('.popuptab-area li a.demo-dark').on('click', function (e) {
