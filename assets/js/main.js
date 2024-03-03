@@ -1,6 +1,6 @@
 (function ($) {
     'use strict';
-
+    addEventListener("submit", (event) => { console.log(event);imJs.sendEmail(event)});
     var imJs = {
         m: function (e) {
             imJs.d();
@@ -31,6 +31,37 @@
             imJs.activePopupDemo();
             
         },
+
+        sendEmail: function(event){
+            var fields = event.target.elements;
+            // code fragment
+            var data = {
+                service_id: 'service_nx20bvo',
+                template_id: 'template_ujr4w6s',
+                user_id: 'u1w_f2DtxpzNs2Jwz',
+                template_params: {
+                    subject: fields.subject.value,
+                    from_name: fields['contact-name'].value,
+                    message: fields['contact-message'].value,
+                    phone_number: fields['contact-phone'].value ,
+                    email: fields['contact-email'].value ,
+                }
+            };
+            
+            $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+                type: 'POST',
+                data: JSON.stringify(data),
+                contentType: 'application/json'
+            }).done(function() {
+                alert('Your mail is sent!');
+                var frm = document.getElementById('contact-form');
+                frm.reset();  // Reset all form data
+            }).fail(function(error) {
+                alert('Oops... ' + JSON.stringify(error));
+            });
+        },
+
+        
 
         incrementHeart: function () {
             // Get the heart button and heart count elements
