@@ -14765,6 +14765,56 @@ body.white-version {
   color: #f9004d;
 }
 
+.innerimg{
+  filter: drop-shadow(10px 7px 10px yellow);
+  transition: transform .2s;
 
+ 
+}
 
-/*# sourceMappingURL=../maps/style.css.map */
+.innerimg:hover {
+  transform: scale(1.2); 
+}
+
+.profile-title {
+  margin-bottom: 20px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.profile-job {
+  font-size: 16px;
+  color: #666;
+}
+
+.profile-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.profile-description p {
+  margin-bottom: 10px;
+}
+
+.profile-phone,
+.profile-mail {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.profile-phone a,
+.profile-mail a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profile-phone a:hover,
+.profile-mail a:hover {
+  text-decoration: underline;
+}
+
