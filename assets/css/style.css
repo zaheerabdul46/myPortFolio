@@ -8121,7 +8121,8 @@ body.template-color-1 {
   .left-header-style #sideNavs .primary-menu {
     display: block;
     margin-top: 50px;
-    width: 100%;
+    width: fit-content;
+    height: fit-content;
     border-radius: 10px;
     margin: 0;
     padding: 30px 0 0 10px; }
@@ -14818,3 +14819,42 @@ body.white-version {
   text-decoration: underline;
 }
 
+.custom-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.custom-btn:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+/* Optional: Adjust padding, font size, etc. as needed */
+.btn-1 {
+  padding: 12px 24px;
+  font-size: 18px;
+}
+
+.mainmenu-nav {
+  margin-right: 0cm; /* Adjust the margin to move the navigation bar to the right */
+}
+
+.logo06{
+  transform: scale(0.8);
+}
+.logo06-container {
+  float: left; /* Float the logo to the left */
+  margin-right: 20px; /* Add some margin between the logo and the navigation items */
+}
+
+.logo06-container img {
+  width: 50px; /* Adjust the width of the logo as needed */
+  height: auto; /* Maintain aspect ratio */
+}
