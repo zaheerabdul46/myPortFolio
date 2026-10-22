@@ -150,7 +150,7 @@ const copyButton = document.querySelector("#copy-email");
 const copyStatus = document.querySelector("#copy-status");
 copyButton.addEventListener("click", async () => {
   try {
-    await navigator.clipboard.writeText("zaheertoday@gmail.com");
+    await navigator.clipboard.writeText("zaheer.abdul3636@gmail.com");
     copyStatus.textContent = "Copied";
   } catch {
     copyStatus.textContent = "Select the email link to copy it";

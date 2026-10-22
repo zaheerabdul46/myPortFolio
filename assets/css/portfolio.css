@@ -1030,6 +1030,19 @@ h3 {
   color: var(--lime);
 }
 
+.linkedin-mark {
+  display: inline-grid;
+  width: 18px;
+  aspect-ratio: 1;
+  place-items: center;
+  margin-right: 8px;
+  border: 1px solid var(--cyan);
+  color: var(--cyan);
+  font-family: var(--mono);
+  font-size: 9px;
+  line-height: 1;
+}
+
 .contact-resume {
   display: flex;
   min-height: 51px;
