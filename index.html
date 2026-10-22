@@ -1,1177 +1,240 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Zaheer Abdul || Personal Portfolio</title>
-    <meta name="robots" content="noindex, follow">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <!-- CSS 
-    ============================================ -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/slick.css">
-    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/vendor/aos.css">
-    <link rel="stylesheet" href="assets/css/plugins/feature.css">
-    <!-- Style css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d10">
+  <meta name="description" content="Zaheer Abdul is a Java Full Stack Developer building secure, scalable enterprise applications with Java, Spring Boot, Angular, and cloud technologies.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Zaheer Abdul | Java Full Stack Developer">
+  <meta property="og:description" content="Java Full Stack Developer focused on enterprise applications, microservices, and cloud-native engineering.">
+  <title>Zaheer Abdul | Java Full Stack Developer</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+  <script src="assets/js/portfolio.js" defer></script>
 </head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-track" aria-hidden="true"><span id="scroll-progress"></span></div>
 
-<body class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
-    
-    <!-- Start Header -->
-    <header class="rn-header haeder-default black-logo-version header--fixed header--sticky">
-        
-        <div class="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
-            <!-- Start Header Left -->
-            <div class="col-lg-2 col-6">
-                <div class="header-left">
-                    <div class="logo06">
-                        <a href="index.html">
-                            <img src="assets/images/logo/logo-06.png" alt="logo">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- End Header Left -->
-            <!-- Start Header Center -->
-            <div class="col-lg-10 col-6">
-                <div class="header-center">
-                    <nav id="sideNav" class="mainmenu-nav navbar-example2 d-none d-xl-block">
-                        <!-- Start Mainmanu Nav -->
-                        
-                        <ul class="primary-menu nav nav-pills">
-                           
-                            <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#features">Features</a></li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
-                            
-                            <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
-                            <li class="nav-item">
-                               <a href="assets/Resume/Zaheer_Abdul_Resume.pdf" download="Resume"><button class="custom-btn btn-1">Resume</button></a>
-                            </li>
-                        </ul>
-                        <!-- End Mainmanu Nav -->
-                    </nav>
-                    <!-- Start Header Right  -->
-                    <div class="header-right">
-                        <!-- <a class="rn-btn" target="_blank" href="../../checkout/83025947/create_account.html?license=regular"><span>BUY NOW</span></a> -->
-                        <div class="hamberger-menu d-block d-xl-none">
-                            <i id="menuBtn" class="feather-menu humberger-menu"></i>
-                        </div>
-                        <div class="close-menu d-block">
-                            <span class="closeTrigger">
-                            <i data-feather="x"></i>
-                        </span>
-                        </div>
-                    </div>
-                    <!-- End Header Right  -->
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Zaheer Abdul, home"><span class="wordmark-mark">ZA</span><span>Zaheer Abdul</span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-resume" href="Zaheer%20Resume.pdf" download="Zaheer-Abdul-Resume.pdf">Resume <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-                </div>
-            </div>
-            <!-- End Header Center -->
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Software engineer · Enterprise applications</p>
+        <h1 id="hero-title">Zaheer<br><span>Abdul</span></h1>
+        <p class="hero-role">Java Full Stack Developer</p>
+        <p class="hero-intro">I build secure, scalable applications across healthcare, insurance, hospitality, retail, and banking, from resilient Java services to thoughtful web experiences.</p>
+        <p class="hero-specialties"><span class="mono-label">CURRENT TOOLKIT</span><span class="rotating-words" id="rotating-words" aria-hidden="true">Java · Spring Boot · Microservices · Cloud</span></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span class="arrow-icon" aria-hidden="true"></span></a>
+          <a class="button button-quiet" href="Zaheer%20Resume.pdf" download="Zaheer-Abdul-Resume.pdf">Download resume <span class="download-icon" aria-hidden="true"></span></a>
         </div>
-    </header>
-    <!-- End Header Area -->
-    <!-- Start Popup Mobile Menu  -->
-    <div class="popup-mobile-menu">
-        <div class="inner">
-            <div class="menu-top">
-                <div class="menu-header">
-                    
-                    <div class="close-button">
-                        <button class="close-menu-activation close"><i data-feather="x"></i></button>
-                    </div>
-                </div>
-                <!-- <p class="discription">Inbio is a personal portfolio template. You can customize all.</p> -->
-            </div>
-            <div class="content">
-                <ul class="primary-menu nav nav-pills">
-                    <li class="nav-item"><a class="nav-link smoth-animation active" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#features">Features</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#resume">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#pricing">Pricing</a></li>
-                    <li class="nav-item"><a class="nav-link smoth-animation" href="#contacts">Contact</a></li>
-                </ul>
-                <!-- social sharea area -->
-                <div class="social-share-style-1 mt--40">
-                    <span class="title">find with me</span>
-                    <ul class="social-share d-flex liststyle">
-                        <!-- <li class="instagram"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
-                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                                </svg></a>
-                        </li> -->
-                        <li class="linkedin"><a href="https://www.linkedin.com/in/abdulzaheer46"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
-                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                                    <rect x="2" y="9" width="4" height="12"></rect>
-                                    <circle cx="4" cy="4" r="2"></circle>
-                                </svg></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- end -->
-            </div>
+        <a class="hero-contact-link" href="#contact">Open to connecting <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-visual" aria-label="Portrait of Zaheer Abdul">
+        <div class="hero-visual-frame">
+          <img src="assets/images/slider/banner-01.png" alt="Zaheer Abdul" fetchpriority="high" width="520" height="600">
+          <div class="visual-index mono-label">ENGINEERING / 01</div>
+          <div class="visual-stamp" aria-hidden="true"><span>JAVA</span><span>FULL STACK</span></div>
         </div>
-    </div>
-    <!-- End Popup Mobile Menu  -->
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      </div>
+      <a class="scroll-cue mono-label" href="#about"><span class="scroll-line"></span> Scroll to explore</a>
+    </section>
 
-
-
-
-    <main class="main-page-wrapper">
-
-        <!-- Start Slider Area -->
-        <div id="home" class="rn-slider-area">
-            <div class="slide slider-style-1">
-                <div class="container">
-                    <div class="row row--30 align-items-center">
-                        <div class="order-2 order-lg-1 col-lg-7 mt_md--50 mt_sm--50 mt_lg--30">
-                            <div class="content">
-                                <div class="inner">
-                                    <span class="subtitle">Welcome to my world</span>
-                                    <h1 class="title">Hi, I'm <span>Zaheer </span><br>
-                                        <span class="header-caption" id="page-top">
-                                            <!-- type headline start-->
-                                            <span class="cd-headline clip is-full-width">
-                                                <span>I'm </span>
-                                        <!-- ROTATING TEXT -->
-                                        <span class="cd-words-wrapper">
-                                                    <b class="is-visible">A Software Engineer.</b>
-                                                    <b class="is-hidden">A Full Stack Developer.</b>
-                                                    <b class="is-hidden">A Java Developer</b>
-                                                    <b class="is-hidden">A software Developer</b>
-
-                                                </span>
-                                        </span>
-                                        <!-- type headline end -->
-                                        </span>
-                                    </h1>
-
-                                    <div>
-                                        <p class="description">Myself Zaheer Abdul, I am a versatile Full Stack Software Developer with upto 3 years of experience, holding a Master's in Computer Science and a Bachelor's in Computer Science. 
-                                            Proficient in Java, Python, and web technologies, Cloud technologies. I am specialized in backend and frontend optimization, deep learning, and software development.
-                                            Experienced in designing and optimizing ETL processes and managing relational databases like SQL Server, Oracle, and MongoDB.
-                                             Skilled in leveraging cloud computing platforms, including AWS, Google Cloud Platform (GCP), and Azure for application deployment and data management.
-                                             Adept at applying agile methodologies to deliver high-quality, scalable solutions that enhance project clarity and efficiency.
-                                            With internships at CowanSystems and experience at Accenture, i am adept at enhancing system efficiency and user experience. 
-                                            Noteworthy projects like the Peer-to-Peer Encrypted Distributed File System and Automatic Detection of Sewer Defects highlight my expertise in encryption and deep learning.
-                                             Certified in AWS, Azure, Salesforce and PEGA, i am committed to leveraging technology to solve complex problems and drive innovation.</p>
-                                    </div>
-                                </div>
-                                <div class="row-icons">
-                                    <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
-                                        <div class="social-share-inner-left-icons">
-                                            <span class="title">find with me</span>
-                                            <ul class="social-icons">
-                                           
-                                                <li class="linkedin-icon"><a href="https://www.linkedin.com/in/zaheerdev"><i data-feather="linkedin"></i></a></li>
-                                                <li class="github-icon"><a href="https://github.com/zaheerabdul46"><i data-feather="github"></i></a></li>
-                                                <li class="leetcode-icon"><a href="https://leetcode.com/zaheerabdul46/"><i data-feather="code"></i></a></li> 
-                                                <li class="youtube-icon"><a href="https://www.youtube.com/channel/UCITHFRC9E8DDvs84rml7jWg"><i data-feather="youtube"></i></a></li>
-                                                <li class="hackerrank-icon"><a href="https://www.hackerrank.com/profile/zaheerabdul46"><i data-feather="zap"></i></a></li>
-                                                <li class="instagram-icon"><a href="https://www.instagram.com/zaheer__abdul/"><i data-feather="instagram"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="order-1 order-lg-2 col-lg-5">
-                            <div class="thumbnailimg">
-                                <div class="innerimg">
-                                    <img src="assets/images/slider/banner-01.png" alt="Personal Portfolio Images">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="about section-shell section-pad" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / About</p>
+        <h2 id="about-title">Engineering systems<br><span>people can rely on.</span></h2>
+      </div>
+      <div class="about-layout">
+        <p class="about-lead reveal">I’m a Java Full Stack Developer with 7+ years of experience delivering enterprise software across the full development lifecycle.</p>
+        <div class="about-body reveal">
+          <p>My work spans Java and Spring microservices, Angular interfaces, REST APIs, data integrations, and cloud deployments. I care about the details that make software dependable: clear contracts, secure access, maintainable code, tested releases, and strong collaboration.</p>
+          <p>Recent work includes healthcare privacy and consent services, production support, cloud-native deployments, and modernization of legacy systems.</p>
+          <a class="text-link" href="#experience">Explore my experience <span aria-hidden="true">↘</span></a>
         </div>
-        <!-- End Slider Area -->
+      </div>
+      <div class="domain-strip reveal" aria-label="Industry experience">
+        <span>Healthcare</span><span>Insurance</span><span>Hospitality</span><span>Retail</span><span>Banking</span>
+      </div>
+    </section>
 
-        <!-- Start Service Area -->
-        <div class="rn-service-area rn-section-gap section-separator" id="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-left" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true">
-                            <span class="subtitle">Features</span>
-                            <h2 class="title">What I Do</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row--25 mt_md--10 mt_sm--10">
-<!-- Start Single Service -->
-<div data-aos="fade-up" data-aos-duration="500" data-aos-delay="500" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
-    <div class="rn-service">
-        <div class="inner">
-            <div class="icon">
-                <i data-feather="aperture"></i>
-            </div>
-            <div class="content">
-                <h4 class="title"><a href="#">Software Engineer</a></h4>
-                <p class="description">Experience in full-stack web development, where I contributed to designing and developing web applications.
-                     My role involved working with both frontend and backend technologies, including Angular for frontend and Node.js for backend services.
-                      I collaborated with cross-functional teams to deliver robust applications, mentored fellow students in web development practices, and helped improve the overall performance and usability of the projects I worked on.
-                       This experience honed my technical skills and enhanced my ability to work effectively in a team-oriented environment.</p>
-                <!-- <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a> -->
-            </div>
+    <section class="experience section-shell section-pad" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / Experience</p>
+        <h2 id="experience-title">A record of<br><span>building and shipping.</span></h2>
+        <p class="section-note">Roles and dates follow the current resume.</p>
+      </div>
+      <div class="timeline">
+        <article class="role-card reveal">
+          <div class="role-date mono-label">JUN 2025 — PRESENT</div>
+          <div class="role-content">
+            <div class="role-heading"><div><h3>Java Full Stack Developer</h3><p class="role-company">Cognizant <span>/</span> TriZetto Healthcare Client</p></div><span class="role-location">Remote</span></div>
+            <p class="role-summary">Building healthcare applications and secure services across Java, Spring Boot, Angular, and Azure Kubernetes Service.</p>
+            <ul class="role-highlights"><li>Developed REST APIs for Privacy &amp; Consent, Security Label, and App Registration modules.</li><li>Modernized legacy systems through Java upgrades, code migration, and data integration.</li><li>Supported production issues and release validation across QA, PAT, and staging.</li></ul>
+            <details class="role-details"><summary>More about the role</summary><p>Works with Azure DevOps pipelines, Docker, Kubernetes, CosmosDB, MongoDB, SQL Server, Postman, and GitHub Copilot. Responsibilities also include CSV design documents, release planning, peer reviews, mentoring, and collaboration with architecture, QA, and product teams.</p></details>
+            <ul class="tag-list" aria-label="Technologies"><li>Java</li><li>Spring Boot</li><li>Angular</li><li>Azure</li><li>AKS</li><li>CosmosDB</li></ul>
+          </div>
+        </article>
+        <article class="role-card reveal">
+          <div class="role-date mono-label">OCT 2023 — MAY 2025</div>
+          <div class="role-content">
+            <div class="role-heading"><div><h3>Java Full Stack Developer</h3><p class="role-company">New York Life Insurance Company</p></div><span class="role-location">Bethesda, Maryland</span></div>
+            <p class="role-summary">Delivered enterprise applications for insurance workflows, claims data, and financial reporting.</p>
+            <ul class="role-highlights"><li>Built Java and Spring Boot services and responsive Angular interfaces.</li><li>Modernized SOAP services with REST APIs and JWT-based authentication.</li><li>Supported production releases, system upgrades, and Oracle SQL batch processing.</li></ul>
+            <details class="role-details"><summary>More about the role</summary><p>Maintained Docker build pipelines and GitHub Actions, managed Kubernetes deployments, tuned SQL, and coordinated integrations with external vendor APIs. Tools included Java, Spring Boot, Angular, Oracle SQL, Jenkins, Postman, Docker, and Kubernetes.</p></details>
+            <ul class="tag-list" aria-label="Technologies"><li>Java</li><li>Spring Boot</li><li>Angular</li><li>Oracle SQL</li><li>GitHub Actions</li><li>Kubernetes</li></ul>
+          </div>
+        </article>
+        <article class="role-card reveal">
+          <div class="role-date mono-label">NOV 2022 — SEP 2023</div>
+          <div class="role-content">
+            <div class="role-heading"><div><h3>Java Full Stack Developer</h3><p class="role-company">Marriott International</p></div><span class="role-location">Bethesda, Maryland</span></div>
+            <p class="role-summary">Worked on guest profile and booking services, combining Java microservices with React interfaces.</p>
+            <ul class="role-highlights"><li>Built Spring Boot services using MongoDB and Kafka for asynchronous messaging.</li><li>Integrated booking and guest-profile APIs with third-party partners.</li><li>Applied OAuth 2.0, accessibility practices, and GDPR/PCI-aligned access controls.</li></ul>
+            <details class="role-details"><summary>More about the role</summary><p>Maintained Azure Pipelines, Docker deployments, and automated tests. Added logging and monitoring hooks, tuned MongoDB queries, and wrote integration tests with JUnit, Mockito, and Cypress.</p></details>
+            <ul class="tag-list" aria-label="Technologies"><li>Java</li><li>Spring Boot</li><li>React</li><li>MongoDB</li><li>Kafka</li><li>OAuth 2.0</li></ul>
+          </div>
+        </article>
+        <article class="role-card reveal">
+          <div class="role-date mono-label">SEP 2021 — JUN 2022</div>
+          <div class="role-content">
+            <div class="role-heading"><div><h3>Java Full Stack Developer</h3><p class="role-company">Accenture <span>/</span> Walmart Client</p></div><span class="role-location">Bangalore, India</span></div>
+            <p class="role-summary">Built retail APIs and web application features supporting product, checkout, inventory, and pricing workflows.</p>
+            <ul class="role-highlights"><li>Delivered Spring Boot and Hibernate services with MySQL-backed data flows.</li><li>Built Angular components for product listing and checkout and integrated payment and loyalty systems.</li><li>Helped modularize legacy services and maintained GitLab CI/CD pipelines.</li></ul>
+            <details class="role-details"><summary>More about the role</summary><p>Contributed to schema refactoring, ELK logging, Swagger/OpenAPI documentation, QA data scripts, UAT, and release planning. The resume notes leading a three-member team on a coupon redemption module.</p></details>
+            <ul class="tag-list" aria-label="Technologies"><li>Java</li><li>Spring Boot</li><li>Angular</li><li>MySQL</li><li>GitLab</li><li>Docker</li></ul>
+          </div>
+        </article>
+        <article class="role-card reveal">
+          <div class="role-date mono-label">MAR 2018 — AUG 2021</div>
+          <div class="role-content">
+            <div class="role-heading"><div><h3>Java Developer</h3><p class="role-company">UST</p></div><span class="role-location">Bangalore, India</span></div>
+            <p class="role-summary">Developed and maintained backend services and APIs for core banking operations.</p>
+            <ul class="role-highlights"><li>Built Java and Spring services backed by Oracle databases.</li><li>Migrated legacy EJB modules to Spring Boot REST services.</li><li>Created Jenkins jobs, stored procedures, and JUnit/Mockito tests.</li></ul>
+            <details class="role-details"><summary>More about the role</summary><p>Also worked on SOAP APIs, JSP interfaces, performance testing, production deployments, regulatory data extraction, QA support, knowledge-transfer sessions, and ISO compliance checklists.</p></details>
+            <ul class="tag-list" aria-label="Technologies"><li>Java</li><li>Spring</li><li>Oracle DB</li><li>EJB</li><li>Jenkins</li><li>JUnit</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills section-shell section-pad" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / Technical toolkit</p>
+        <h2 id="skills-title">Tools for the<br><span>whole lifecycle.</span></h2>
+      </div>
+      <div class="filter-row skill-filters" role="group" aria-label="Filter skill categories">
+        <button class="filter-button is-active" type="button" data-skill-filter="all" aria-pressed="true">All</button>
+        <button class="filter-button" type="button" data-skill-filter="backend" aria-pressed="false">Backend</button>
+        <button class="filter-button" type="button" data-skill-filter="frontend" aria-pressed="false">Frontend</button>
+        <button class="filter-button" type="button" data-skill-filter="cloud" aria-pressed="false">Cloud &amp; DevOps</button>
+        <button class="filter-button" type="button" data-skill-filter="data" aria-pressed="false">Data</button>
+        <button class="filter-button" type="button" data-skill-filter="quality" aria-pressed="false">Quality</button>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-panel reveal" data-skill-category="backend"><span class="panel-number mono-label">A / 01</span><h3>Languages &amp; backend</h3><p>Java, Java 8+, JavaScript, TypeScript, Python, Ruby, SQL, PL/SQL, Spring Boot, Spring Batch, Spring Cloud, Spring MVC, Node.js, Express.js, Hibernate, JPA, Maven, Kafka, RabbitMQ</p></article>
+        <article class="skill-panel reveal" data-skill-category="frontend"><span class="panel-number mono-label">A / 02</span><h3>Frontend &amp; experience</h3><p>Angular 8+, Angular 12, AngularJS, React.js, HTML5, CSS3, SASS, LESS, jQuery, AJAX, Bootstrap, Material Design, responsive design, micro frontends, component-based UI</p></article>
+        <article class="skill-panel reveal" data-skill-category="cloud"><span class="panel-number mono-label">A / 03</span><h3>Cloud &amp; delivery</h3><p>Azure, Azure DevOps, AWS (S3, Lambda, EC2, CloudFront, CloudFormation, CDK), Docker, Kubernetes, Terraform, GitHub Actions, GitLab CI/CD, Jenkins, Git, GitHub, GitLab, Bitbucket</p></article>
+        <article class="skill-panel reveal" data-skill-category="data"><span class="panel-number mono-label">A / 04</span><h3>Data &amp; performance</h3><p>SQL Server, Oracle, PostgreSQL, MongoDB, CosmosDB, Redis, Memcached, AtlasDB, Aerospike, asynchronous programming, caching, code splitting, lazy loading</p></article>
+        <article class="skill-panel reveal" data-skill-category="quality"><span class="panel-number mono-label">A / 05</span><h3>Testing &amp; observability</h3><p>JUnit, Mockito, Jest, Cypress, Mocha, Jasmine, Selenium, Postman, integration testing, unit testing, Splunk, Dynatrace, CloudWatch, SonarLint, logging pipelines</p></article>
+        <article class="skill-panel reveal" data-skill-category="quality"><span class="panel-number mono-label">A / 06</span><h3>Engineering practice</h3><p>OOP, design patterns, SOLID, TDD, BDD, secure coding, code reviews, Agile, Scrum, sprint planning, retrospectives, knowledge transfer, cross-functional collaboration</p></article>
+      </div>
+      <p class="skills-note mono-label">Certifications mentioned in resume: AWS Cloud Solutions Architecture · Salesforce DevOps · Azure Fundamentals</p>
+    </section>
+
+    <section class="projects section-shell section-pad" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading section-heading-wide reveal">
+        <div><p class="eyebrow">04 / Selected work</p><h2 id="projects-title">Projects built<br><span>to solve problems.</span></h2></div>
+        <p class="section-note">Existing project entries and repository links are retained.</p>
+      </div>
+      <div class="filter-row project-filters" role="group" aria-label="Filter projects">
+        <button class="filter-button is-active" type="button" data-project-filter="all" aria-pressed="true">All</button>
+        <button class="filter-button" type="button" data-project-filter="java" aria-pressed="false">Java</button>
+        <button class="filter-button" type="button" data-project-filter="fullstack" aria-pressed="false">Full Stack</button>
+        <button class="filter-button" type="button" data-project-filter="cloud" aria-pressed="false">Cloud</button>
+        <button class="filter-button" type="button" data-project-filter="research" aria-pressed="false">Research</button>
+        <button class="filter-button" type="button" data-project-filter="other" aria-pressed="false">Other</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-featured reveal" data-project-tags="java fullstack other">
+          <div class="project-art art-network" aria-hidden="true"><span class="art-label mono-label">DISTRIBUTED / SYSTEMS</span><span class="art-glyph">P2P</span><span class="art-foot mono-label">AES-256 · RMI · THREADS</span></div>
+          <div class="project-copy"><p class="eyebrow">Master’s project</p><h3>Peer-to-Peer Encrypted Distributed File System</h3><p>Designed a distributed file system for shared create, read, edit, and delete operations. The existing project description documents multi-threading and AES-256 encryption.</p><ul class="tag-list"><li>Java</li><li>RMI</li><li>Multi-threading</li><li>AES</li></ul><a class="text-link" href="https://github.com/zaheerabdul46/P2P_FileSystem" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card reveal" data-project-tags="research other">
+          <div class="project-art art-research" aria-hidden="true"><span class="art-label mono-label">COMPUTER VISION / RESEARCH</span><span class="art-glyph">CNN<span>_</span></span><span class="art-foot mono-label">RESNET50 · VGG16 · INCEPTIONV3</span></div>
+          <div class="project-copy"><p class="eyebrow">Research publication · ICCES</p><h3>Automatic Detection of Sewer Defects</h3><p>Applied hierarchical deep learning to a 40,000-image inspection dataset. The existing project description reports 99.8% accuracy with ResNet50 and a publication at ICCES.</p><ul class="tag-list"><li>Deep learning</li><li>Image processing</li><li>ResNet50</li></ul><a class="text-link" href="https://github.com/zaheerabdul46/IEEE_Publication" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card reveal" data-project-tags="cloud other">
+          <div class="project-art art-feedback" aria-hidden="true"><span class="art-label mono-label">SENTIMENT / FEEDBACK</span><span class="art-glyph">+ / 0 / −</span><span class="art-foot mono-label">CUSTOMER SIGNALS</span></div>
+          <div class="project-copy"><p class="eyebrow">AWS Build-a-thon</p><h3>Employee Appreciation by Customer Satisfaction</h3><p>Created a feedback workflow that classifies sentiment, aggregates responses by employee, and calculates scores to support recognition.</p><ul class="tag-list"><li>Sentiment analysis</li><li>Data analysis</li><li>AWS</li></ul><a class="text-link" href="https://github.com/zaheerabdul46/SPS-1985-Employee-Appreciation-based-On-Customer-Satisfaction" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card reveal" data-project-tags="cloud fullstack">
+          <div class="project-art art-donor" aria-hidden="true"><span class="art-label mono-label">SERVERLESS / HEALTHCARE</span><span class="art-glyph">DONOR<span class="art-cross">+</span></span><span class="art-foot mono-label">LAMBDA · DYNAMODB · API GATEWAY</span></div>
+          <div class="project-copy"><p class="eyebrow">AWS Build-a-thon</p><h3>Plasma Donor App</h3><p>Built a web interface to match donors with recipients by compatibility and health status, integrating serverless services for donor data and requests.</p><ul class="tag-list"><li>Flask</li><li>AWS Lambda</li><li>DynamoDB</li><li>API Gateway</li></ul><a class="text-link" href="https://github.com/zaheerabdul46/SPS-3805-I-am-for-a-cause-Donate-Blood-Save-Lives" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card reveal" data-project-tags="other">
+          <div class="project-art art-alarm" aria-hidden="true"><span class="art-label mono-label">PIPELINE / ANOMALY DETECTION</span><span class="art-glyph">ALARM<span> //</span></span><span class="art-foot mono-label">MONITOR · DETECT · ALERT</span></div>
+          <div class="project-copy"><p class="eyebrow">Smart India Hackathon</p><h3>Alarm Management System</h3><p>Developed a predictive monitoring concept for pipeline gas leakage, analyzing operating parameters and pressure to identify anomalies.</p><ul class="tag-list"><li>Machine learning</li><li>Analytics</li><li>Monitoring</li></ul><a class="text-link" href="https://github.com/zaheerabdul46/BK226_itwelve" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card reveal" data-project-tags="cloud other">
+          <div class="project-art art-recruit" aria-hidden="true"><span class="art-label mono-label">AI / TALENT WORKFLOW</span><span class="art-glyph">HIRE<span>_</span></span><span class="art-foot mono-label">WATSON · KNOWLEDGE STUDIO</span></div>
+          <div class="project-copy"><p class="eyebrow">IBM Hack Challenge</p><h3>AI for Recruitment</h3><p>Created a chatbot concept for candidate interviews and resume skill analysis to support automated recruitment workflows.</p><ul class="tag-list"><li>Watson Assistant</li><li>Natural language</li><li>IBM Cloud</li></ul><a class="text-link" href="https://github.com/zaheerabdul46/SBSPS-Challenge-984-AI-Recruitment" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card reveal" data-project-tags="java fullstack">
+          <div class="project-art art-food" aria-hidden="true"><span class="art-label mono-label">ANDROID / COMMUNITY</span><span class="art-glyph">SHARE<span>_</span></span><span class="art-foot mono-label">FOOD DONATION INTERFACE</span></div>
+          <div class="project-copy"><p class="eyebrow">Android application</p><h3>Food Donation Interface</h3><p>Designed an Android interface for food donation with Firebase Authentication and web-page routing.</p><ul class="tag-list"><li>Java</li><li>Android</li><li>Firebase</li><li>PHP</li></ul><a class="text-link" href="https://github.com/zaheerabdul46/food-wastage-reduction" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <p class="filter-empty" id="project-empty" hidden>No projects in this category.</p>
+    </section>
+
+    <section class="education section-shell section-pad" id="education" aria-labelledby="education-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / Education</p>
+        <h2 id="education-title">A foundation in<br><span>computer science.</span></h2>
+      </div>
+      <article class="education-card reveal">
+        <span class="education-mark" aria-hidden="true">MS</span>
+        <div><p class="mono-label">MASTER OF SCIENCE · 2022–2024</p><h3>Computer Science</h3><p>University of Maryland, Baltimore County</p></div>
+        <span class="education-arrow" aria-hidden="true">↗</span>
+      </article>
+    </section>
+
+    <section class="contact section-shell section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="contact-topline mono-label"><span>06 / Contact</span><span>Let’s build something dependable.</span></div>
+      <div class="contact-layout">
+        <div class="contact-copy reveal"><p class="eyebrow">Have a role or project in mind?</p><h2 id="contact-title">Let’s talk<br><span>engineering.</span></h2><p>I’m open to connecting about software engineering opportunities and thoughtful technical work.</p></div>
+        <div class="contact-links reveal">
+          <div class="contact-email"><span class="mono-label">EMAIL</span><a href="mailto:zaheertoday@gmail.com">zaheertoday@gmail.com</a><button class="copy-button" id="copy-email" type="button" aria-label="Copy email address">Copy</button><span class="copy-status" id="copy-status" role="status" aria-live="polite"></span></div>
+          <a class="contact-link" href="https://www.linkedin.com/in/zaheerdev/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+          <a class="contact-link" href="https://github.com/zaheerabdul46" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+          <a class="contact-resume" href="Zaheer%20Resume.pdf" download="Zaheer-Abdul-Resume.pdf">Download resume <span aria-hidden="true">↓</span></a>
         </div>
-        <a class="over-link" href="#"></a>
-    </div>
-</div>
-                    <!-- Start Single Service -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-service">
-                            <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="layout"></i>
-                                </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="#">Full Stack Developer</a></h4>
-                                    <p class="description">Specialized in full-stack development with a focus on building and optimizing web applications.
-                                         I worked extensively with Angular for frontend development and .NET for backend operations, creating efficient and scalable applications.
-                                          My responsibilities included improving backend performance, reducing API response times, and enhancing database query efficiency.
-                                           I collaborated closely with cross-functional teams to deliver high-quality software solutions that met the company's business needs.
-                                         This role deepened my expertise in full-stack development and reinforced my ability to deliver impactful software solutions.</p>
-                                    <!-- <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a> -->
-                                </div>
-                            </div>
-                            <a class="over-link" href="#"></a>
-                        </div>
-                    </div>
-                    <!-- End SIngle Service -->
-                    <!-- Start Single Service -->
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-sm-12 col-12 mt--50 mt_md--30 mt_sm--30">
-                        <div class="rn-service">
-                            <div class="inner">
-                                <div class="icon">
-                                    <i data-feather="grid"></i>
-                                </div>
-                                <div class="content">
-                                    <h4 class="title"><a href="#">Software Development Engineer</a></h4>
-                                    <p class="description"> Software Development Engineer, hands-on experience in C/C++ programming, specializing in real-time operating systems. I have worked on optimizing system performance, improving multi-threaded design, and reducing system latency in the automotive and data communications industries. My technical skills include memory management, RTOS, and debugging tools like gdb, and I have experience working in Linux environments. I’m comfortable collaborating in Agile environment using Scrum  methodologies to deliver high-quality software solutions. <!-- <a class="read-more-button" href="#"><i class="feather-arrow-right"></i></a> -->
-                                </div>
-                            </div>
-                            <a class="over-link" href="#"></a>
-                        </div>
-                    </div>
-                    <!-- End SIngle Service -->
-                    
-                    
-
-                </div>
-            </div>
-        </div>
-        <!-- End Service Area  -->
-
-        <!-- Start Portfolio Area -->
-        <div class="rn-portfolio-area rn-section-gap section-separator" id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-center">
-                            <span class="subtitle">Visit my portfolio and keep your feedback</span>
-                            <h2 class="title">My Portfolio</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row row--25 mt--10 mt_md--10 mt_sm--10">
-                    
-                   <!-- Start Single Portfolio -->
-                   <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenterr">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="category-info">
-                                    <div class="category-list">
-                                        <a href="javascript:void(0)">Master's Project</a>
-                                    </div>
-                                    <div class="meta">
-                                        <span><a href="javascript:void(0)" id="heartButton"><i class="feather-heart"></i></a>
-                                            <span id="heartCount">10</span></span>
-                                    </div>
-                                    
-                                </div>
-                                <h4 class="title"><a href="https://github.com/zaheerabdul46/P2P_FileSystem" target="_blank">Peer to Peer Encrypted Distributed File System <i class="feather-arrow-up-right"></i></a></h4>
-           
-                             
-                                <p class="date">Aug 2022 - Dec 2022</p>
-
-                                    <ul class="description">
-                                        <li>Designed a peer-to-peer file system that maintains Functionalities and allows up to 1000 concurrent users to create, read,
-                                            delete and edit files, collaborating with a team of 3 members.</li>
-                                        <li>The AES algorithm's encryption logic ensures that unauthorized users are unable to interfere with the system, bolstering
-                                            security with a robust 256-bit encryption key.</li>
-                                        <li>Skills: Java, RMI Library, Multi-Threading.</li>
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
-
-                <!-- Start Single Portfolio -->
-                <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenterr">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="category-info">
-                                    <div class="category-list">
-                                        <a href="javascript:void(0)">ICCES 2021 PUBLICATION</a>
-                                    </div>
-                                    <div class="meta">
-                                        <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            25</span>
-                                    </div>
-                                </div>
-                                <h4 class="title"><a href="https://github.com/zaheerabdul46/IEEE_Publication" target="_blank">Automatic Detection of Sewer Defects via Hierarchical Deep Learning  <i class="feather-arrow-up-right"></i></a></h4>
-                                
-                                <p class="date">Jan 2021 - Jul 2021</p>
-
-                                    <ul class="description">
-                                        <li>Generated a convolutional neural network (CNN)-based image processing model for inspecting cracks in a data-set of
-                                            40,000 images, employing ResNet50, VGG16, and InceptionV3 CNN models.</li>
-                                        <li>Achieved an exceptional 99.8% accuracy rate with the ResNet50 model, and this work resulted in a published research
-                                            paper (PUBLICATION[ICCES 2021]).</li>
-                                        <li>Skills: Deep Learning, Image Processing, CNN Models: ResNet50, VGG16, InceptionV3, Model Evaluation and
-                                            Optimization. </li>
-                                     
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
-
-
-                 <!-- Start Single Portfolio -->
-                 <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenterr">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="category-info">
-                                    <div class="category-list">
-                                        <a href="javascript:void(0)">AWS Build-a-thon 2020</a>
-                                    </div>
-                                    <div class="meta">
-                                        <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            15</span>
-                                    </div>
-                                </div>
-                                <h4 class="title"><a href="https://github.com/zaheerabdul46/SPS-1985-Employee-Appreciation-based-On-Customer-Satisfaction" target="_blank">Employee Appreciation Based on Customer Satisfaction<i class="feather-arrow-up-right"></i></a></h4>
-
-                                <p class="date">Oct 2020 - Nov 2020</p>
-
-                                    <ul class="description">
-                                        <li>Designed a system to gather customer feedback for employees, conducting sentiment analysis to classify responses as
-                                            positive, neutral, or negative.</li>
-                                        <li>Utilized sentiment analysis algorithms to evaluate feedback sentiment. </li>
-                                        <li>Calculated feedback counts for each employee and assigned scores based on sentiment to determine the best employee.</li>
-                                        <li>This solution enhances employee performance assessment and fosters a culture of continuous improvement.</li>
-                                        <li>Skills: Sentiment Analysis, Data Analysis, Statistical Analysis, Employee Performance Evaluation</li>
-                                        
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
-
-                <!-- Start Single Portfolio -->
-                <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenterr">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="category-info">
-                                    <div class="category-list">
-                                        <a href="javascript:void(0)">AWS Build-a-thon 2020</a>
-                                    </div>
-                                    <div class="meta">
-                                        <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            18</span>
-                                    </div>
-                                </div>
-                                <h4 class="title"><a href="https://github.com/zaheerabdul46/SPS-3805-I-am-for-a-cause-Donate-Blood-Save-Lives" target="_blank">Plasma Donor App with Server-less Computing<i class="feather-arrow-up-right"></i></a></h4>
-
-                                <p class="date">Sep 2020 - Oct 2020</p>
-
-                                    <ul class="description">
-                                        <li>Developed a web interface to match blood donors with recipients based on compatibility and health status.</li>
-                                        <li>Integrated AWS Lambda functions, DynamoDB, and API Gateway within Flask using Visual Studio Code.</li>
-                                        <li>The system efficiently manages donor data and recipient requests, ensuring timely and accurate blood donations, thereby
-                                            saving lives and contributing to healthcare accessibility and efficiency.</li>
-                                        <li>Skills: AWS Services Integration, API Development, Web Development, Database Management</li>
-                                        
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
-
-                <!-- Start Single Portfolio -->
-                <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenterr">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="category-info">
-                                    <div class="category-list">
-                                        <a href="javascript:void(0)">Smart India Hackathon(SIH) 2020</a>
-                                    </div>
-                                    <div class="meta">
-                                        <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            20</span>
-                                    </div>
-                                </div>
-                                <h4 class="title"><a href="https://github.com/zaheerabdul46/BK226_itwelve" target="_blank">Alarm Management System<i class="feather-arrow-up-right"></i></a></h4>
-
-                                <p class="date">Jul 2020 - Sep 2020</p>
-
-                                    <ul class="description">
-                                        <li>Implemented a predictive system to detect gas leakage in pipelines by analyzing parameters and pressure.</li>
-                                        <li>Utilized Alarm Management and Analytics coupled with machine learning algorithms.</li>
-                                        <li>The system continuously monitors pipeline conditions, issuing alerts upon detection of anomalies, thus mitigating risks of
-                                            leaks and ensuring timely response for safety measures, preventing potential hazards and minimizing environmental
-                                            impact.</li>
-                                        <li>Skills: Machine Learning, Data Analysis, Alarm Management</li>
-                                        
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
-
-                <!-- Start Single Portfolio -->
-                <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenterr">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="category-info">
-                                    <div class="category-list">
-                                        <a href="javascript:void(0)">IBM Hack Challenge 2020</a>
-                                    </div>
-                                    <div class="meta">
-                                        <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            10</span>
-                                    </div>
-                                </div>
-                                <h4 class="title"><a href="https://github.com/zaheerabdul46/SBSPS-Challenge-984-AI-Recruitment" target="_blank">AI For Recruitment <i class="feather-arrow-up-right"></i></a></h4>
-                                
-                                <p class="date">May 2020 - Jun 2020</p>
-
-                                    <ul class="description">
-                                        <li>Developed a chat bot for automated recruitment processes, functioning as an HR assistant to interview candidates.</li>
-                                        <li>Incorporated advanced algorithms to analyze candidate resumes, filtering applicants based on required skills using
-                                            Knowledge Studio.</li>
-                                        <li>This innovative solution streamlines the hiring process, saving time and resources while ensuring efficient candidate
-                                            selection.</li>
-                                        <li>It enhances HR productivity, minimizes bias, and optimizes talent acquisition strategies for improved organizational
-                                                success.</li>
-                                        <li>Skills: Watson Assistant, Watson Knowledge Studio, Watson Natural Language Understanding, IBM Cloud Functions.</li>
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
-
-                <!-- Start Single Portfolio -->
-                <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 col-md-6 col-12 mt--50 mt_md--30 mt_sm--30">
-                    <div class="rn-portfolio" data-toggle="modal" data-target="#exampleModalCenterr">
-                        <div class="inner">
-                            <div class="content">
-                                <div class="category-info">
-                                    <div class="category-list">
-                                        <a href="javascript:void(0)">Android Application development</a>
-                                    </div>
-                                    <div class="meta">
-                                        <span><a href="javascript:void(0)"><i class="feather-heart"></i></a>
-                                            30</span>
-                                    </div>
-                                </div>
-                                <h4 class="title"><a href="https://github.com/zaheerabdul46/food-wastage-reduction" target="_blank">Food Donation Interface <i class="feather-arrow-up-right"></i></a></h4>
-           
-                             
-                                <p class="date">Jan 2020 - May 2020</p>
-
-                                    <ul class="description">
-                                        <li>Designed a responsive Android app, utilizing Google Firebase Authentication to enhance data security, enabling seamless
-                                            registration and login, resulting in a 30% boost in registration rates.</li>
-                                        <li>Java framework Android Studios for fluid interactions and browsing 2 web pages concurrently for web page routing.</li>
-                                        <li>Skills: Java, PHP, TypeScript, HTML, CSS, Google Firebase</li>
-                                    </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Single Portfolio -->
-
-                </div>
-            </div>
-        </div>
-        <!-- End portfolio Area -->
-
-        <!-- Start Resume Area -->
-        <div class="rn-resume-area rn-section-gap section-separator" id="resume">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-center">
-                            <!-- <span class="subtitle">1+ Years of Experience</span> -->
-                            <h2 class="title">My Resume</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt--45">
-                    <div class="col-lg-12">
-                        <ul class="rn-nav-list nav nav-tabs" id="myTabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="education-tab" data-toggle="tab" href="#education" role="tab" aria-controls="education" aria-selected="true">education</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="professional-tab" data-toggle="tab" href="#professional" role="tab" aria-controls="professional" aria-selected="false">professional
-                                    Skills</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="experience-tab" data-toggle="tab" href="#experience" role="tab" aria-controls="experience" aria-selected="false">experience</a>
-                            </li>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link" id="interview-tab" data-toggle="tab" href="#interview" role="tab" aria-controls="interview" aria-selected="false">interview</a>
-                            </li> -->
-                        </ul>
-                        <!-- Start Tab Content Wrapper  -->
-                        <div class="rn-nav-content tab-content" id="myTabContents">
-                            <!-- Start Single Tab  -->
-                            <div class="tab-pane show active fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
-                                <div class="personal-experience-inner mt--40">
-                                    <div class="row">
-                                        <!-- Start Skill List Area  -->
-                                        <div class="col-lg-6 col-md-12 col-12">
-                                            <div class="content">
-                                                <span class="subtitle">2017 - 2024</span>
-                                                <h4 class="maintitle">Education Quality</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Master's in Computer Science (MSCS)</h4>
-                                                                    <span>University Of Maryland, Baltimore County. (2022 - 2024)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>3.7/4</span>
-                                                                </div>
-
-                                                                <!-- <p class="description"><h6>courses taken</h6>
-                                                                    Design and Analysis of Algorithms,
-                                                                     Advanced Computer Architecture, Principles of Computer Security, Coding Theory and Applications,
-                                                                      Information Retrieval, Introduction to Data Science, Quantum Computing.</p>
-                                                             -->
-                                                            
-                                                                    </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-                                                    
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Bachelor of Technology (B. Tech) in Computer Science</h4>
-                                                                    <span>Velagapudi Ramakrishna Siddhartha Engineering College (2017 - 2021)</span>
-                                                                </div>
-                                                                <div class="date-of-time">
-                                                                    <span>3.5/4</span>
-                                                                </div>
-                                                                <!-- <p class="description"><h6>courses taken</h6>
-                                                                    Operating Systems, Computer Networks, Computer Architecture, Software Engineering, Programming Languages, Data Science,
-                                                                     Artificial Intelligence, Deep Learning, Data Structures, Design and Analysis of Algorithms, Mobile Computing, Web Technologies, Cloud Computing.</p>
-                                                             -->
-                                                            
-                                                                    </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Skill List Area  -->
-
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Tab  -->
-
-
-
-
-
-                           <!-- Start Single Tab  -->
-<div class="tab-pane fade" id="professional" role="tabpanel" aria-labelledby="professional-tab">
-    <div class="personal-experience-inner mt--40">
-        <div class="row row--40">
-
-            <!-- Start Single Progressbar for Certifications -->
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="progress-wrapper">
-                    <div class="content">
-                        <span class="subtitle">Certifications</span>
-                        <!-- Certifications List -->
-                        <ul class="skill-list">
-                            <li>AWS Certified Cloud Solution Architect - Associate - (Aug 2024)</li>
-                            <li>Certified Copado Salesforce DevOps Administrator - (Apr 2021)</li>
-                            <li>Certified Pega Senior System Architect (PEGA) - (Jan 2021)</li>
-                            <li>Certified Microsoft Azure Fundamentals (AZ - 900) - (Jan 2021)</li>
-                            <li>Certified Salesforce Platform Developer-1 (Salesforce) - (Oct 2020) </li>
-                            
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Progressbar for Certifications  -->
-                        <!-- Start Single Progressbar for Integrated Tech Stack -->
-                        <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
-                            <div class="progress-wrapper">
-                                <div class="content">
-                                    <span class="subtitle">Cloud Platforms</span>
-                                    <!-- Integrated Tech Stack List -->
-                                    <ul class="skill-list">
-                                        <li>AWS</li>
-                                        <li>Azure</li>
-                                        <li>IBM Services</li>
-                                        <li>GCP</li>
-                                        <li>Salesforce</li>
-                                        <li>Pega</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Progressbar for Integrated Tech Stack -->
-            <!-- Start Single Progressbar for Frameworks -->
-            <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
-                <div class="progress-wrapper">
-                    <div class="content">
-                        <span class="subtitle">Languages</span>
-                        <!-- Languages List -->
-                        <ul class="skill-list">
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>Embedded C</li>
-                            <li>Embedded C++</li>
-                            <li>MySQL</li>
-                            <li>NoSQL</li>
-                            <li>.NET(C#)</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
-                            <li>HTML/CSS</li>
-                            <li>XML</li>
-                            <li>PHP</li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Progressbar for Frameworks -->
-            <!-- Start Single Progressbar for Languages -->
-            <div class="col-lg-6 col-md-6 col-12 mt_sm--60">
-                <div class="progress-wrapper">
-                    <div class="content">  
-                        <span class="subtitle">Web Development</span>
-
-                        <!-- Frameworks List -->
-                        <ul class="skill-list">
-                            <li>AngularJS</li>
-                            <li>React.js</li>
-                            <li>Vue.js</li>
-                            <li>Node.js</li>
-                            <li>Next.js</li>
-                            <li>Azure Functions(Dot-Net)</li>
-                            <li>Spring</li>
-                            <li>Spring Boot</li>
-                            <li>Rest API</li>
-                            <li>Microservices</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Progressbar for Languages -->
-
-            
-
-
-
-            <!-- Start Single Progressbar for Databases -->
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="progress-wrapper">
-                    <div class="content">
-                        <span class="subtitle">Databases</span>
-                        <!-- Databases List -->
-                        <ul class="skill-list">
-                            <li>MySQL</li>
-                            <li>Microsoft SQL Server</li>
-                            <li>Oracle</li>
-                            <li>MongoDB</li>
-                            <li>Cassandra</li>
-                            <li>DynamoDB</li>
-                            <li>Teradata</li>
-                            <li>AWS S3</li>
-                            <li>Azure Blob Storage</li>
-                            <li>Google cloud storage</li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Progressbar for Databases -->
-
-                        <!-- Start Single Progressbar for Databases -->
-                        <div class="col-lg-6 col-md-6 col-12">
-                            <div class="progress-wrapper">
-                                <div class="content">
-                                    <span class="subtitle">Data Engineering & Integration</span>
-                                    <!-- Databases List -->
-                                    <ul class="skill-list">
-                                        <li>ETL (Informatica, DataStage)</li>
-                                        <li>Data Pipeline Design</li>
-                                        <li>Data Warehousing </li>
-                                        <li>Data Visualization</li>
-                                        <li>Data Security and Governance</li>
-                                        <li>Data Modeling</li>
-                                        <li>Data Migration</li>
-                                        <li>Data Validation</li>
-                                        <li>Technical Documentation</li>
-                                        <li>Project Coordination</li>
-
-                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Progressbar for Databases -->
-
-
-                                    <!-- Start Single Progressbar for Databases -->
-            <div class="col-lg-6 col-md-6 col-12">
-                <div class="progress-wrapper">
-                    <div class="content">
-                        <span class="subtitle">Data Engineering Tools</span>
-                        <!-- Databases List -->
-                        <ul class="skill-list">
-                            <li>Amazon Redshift</li>
-                            <li>Google BigQuery</li>
-                            <li>Snowflake</li>
-                            <li>Apache Spark </li>
-                            <li>Hadoop </li>
-                            <li>Apache Kafka </li>
-                            <li>Tableau </li>
-                            <li>Power BI </li>
-                            <li>Data Encryption</li>
-                            <li>Data Auditing and Compliance</li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- End Single Progressbar for Databases -->
-<!-- Start Single Progressbar for Developer Tools -->
-<div class="col-lg-6 col-md-6 col-12">
-    <div class="progress-wrapper">
-        <div class="content">
-            <span class="subtitle">Developer Tools and Cloud Technologies</span>
-            <!-- Developer Tools List -->
-            <ul class="skill-list">
-                <li>VS Code</li>
-                <li>Visual Studio</li>
-                <li>PyCharm</li>
-                <li>Jupiter Notebook</li>
-                <li>Eclipse</li>
-                <li>IntelliJ</li>
-                <li>Git</li>
-                <li>Gitlab</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- End Single Progressbar for Developer Tools -->
-
-<!-- Start Single Progressbar for Developer Tools -->
-<div class="col-lg-6 col-md-6 col-12">
-    <div class="progress-wrapper">
-        <div class="content">
-            <span class="subtitle">DevOps Tools</span>
-            <!-- Developer Tools List -->
-            <ul class="skill-list">
-                <li>Docker</li>
-                <li>Kubernetes</li>
-                <li>Jira</li>
-                <li>Jenkins</li>
-                <li>GitHub</li>
-                <li>Maven</li>
-                <li>Ansible</li>
-                <li>Terraform</li>
-                <li>Scrum</li>
-                <li>AWS</li>
-                <li>Kanban</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- End Single Progressbar for Developer Tools -->
- <!-- Start Single Progressbar for Developer Tools -->
-<div class="col-lg-6 col-md-6 col-12">
-    <div class="progress-wrapper">
-        <div class="content">
-            <span class="subtitle">Testing Tools</span>
-            <!-- Developer Tools List -->
-            <ul class="skill-list">
-                <li>JUnit</li>
-                <li>Selenium</li>
-                <li>Cucumber</li>
-                <li>Postman</li>
-                <li>SoapUI</li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-- End Single Progressbar for Developer Tools -->           
-
-        </div>
-    </div>
-</div>
-<!-- End Single Tab  -->
-
-                            <!-- Start Single Tab  -->
-                            <div class="tab-pane fade" id="experience" role="tabpanel" aria-labelledby="experience-tab">
-                                <div class="personal-experience-inner mt--40">
-                                    <div class="row">
-
-
-
-
-
-                                         <!-- Start Skill List Area 2nd  -->
-                                        <div class="col-lg-6 col-md-12 col-12">
-                                            <div class="content">
-                                                <span class="subtitle">2021 - 2022</span>
-                                                <h4 class="maintitle">Job Experience</h4>
-                                                <div class="experience-list">
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Research Software Engineer </h4>
-                                                                    <span>University of Maryland Baltimore County (Jan 2023 - Present)</span>
-                                                                </div>
-                                                              
-                                                            </div>
-                                                            <p class="description">•	Developed real-time web applications using ReactJS and NodeJS, improving user interaction and reducing latency by 15%.
-                                                                •	Managed NoSQL databases like MongoDB for storing large volumes of unstructured data, enhancing system performance.
-                                                                •	Integrated AWS S3 for secure storage and efficient retrieval of application assets, reducing data retrieval times by 20%.
-                                                                •	Implemented RESTful APIs using NodeJS, ensuring smooth communication between client and server applications.
-                                                                •	Developed and optimized ETL processes using Informatica for large-scale data integration tasks, improving data flow efficiency.
-                                                                •	Built scalable microservices using Python, improving modularity and application scalability by 25%.
-                                                                •	Managed cloud-based data pipelines using Google Cloud Platform (GCP) and AWS, ensuring data availability and security.
-                                                                •	Deployed containerized applications using Kubernetes, streamlining deployment and scaling of microservices-based architecture.
-                                                                •	Performed complex SQL queries in Teradata and SQL Server, optimizing database performance and reducing query execution times.
-                                                                •	Monitored project progress using Jira, identifying bottlenecks early and improving project delivery speed by 30%.
-                                                                •	Led data migration projects from on-premises systems to cloud platforms, improving scalability and reducing infrastructure costs.
-                                                                •	Automated infrastructure provisioning with Terraform for efficient and consistent environment setup.
-                                                                •	Developed data pipelines for GCP using Cloud Functions and Dataflow, streamlining data movement and processing across multiple systems.
-                                                                •	Enhanced security by integrating IAM roles and managing cloud resources using AWS CloudFormation.
-                                                                •	Provided regular status updates to project stakeholders, ensuring clear communication of goals, progress, and issues.
-                                                                
-                                                                 </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Full Stack Developer</h4>
-                                                                    <span>Cowan Systems, LLC. (May 2023 - Aug 2023)</span>
-                                                                </div>
-                                                              
-                                                            </div>
-                                                            <p class="description">•	Designed enterprise-grade web applications using Angular and Azure Functions with C# (Dot-Net), ensuring efficient data flow and system integration.
-                                                                •	Developed and managed SQL Server databases, improving query performance and scalability for real-time applications.
-                                                                •	Designed and developed ETL processes using Informatica to integrate data across multiple platforms, improving accessibility for business users.
-                                                                •	Leveraged Azure MySQL for cloud-based data management, optimizing data storage and reducing latency by 20%.
-                                                                •	Created and maintained relational database structures in Oracle and SQL Server, enhancing data retrieval efficiency and accuracy.
-                                                                •	Built reusable components using TypeScript in Angular, improving frontend development speed and maintainability.
-                                                                •	Automated testing processes using Postman for API testing, ensuring error-free deployment of new features.
-                                                                •	Implemented Terraform to automate the CI/CD pipeline in Azure DevOps, reducing manual configuration efforts by 40%.
-                                                                •	Developed REST APIs for communication between frontend and backend, improving system reliability and response times.
-                                                                •	Managed cloud computing resources on AWS and Azure, optimizing data storage and processing capabilities.
-                                                                •	Deployed Dockerized microservices in Azure Kubernetes Service, enhancing scalability and portability of applications.
-                                                                •	Assisted in the migration of on-premises databases to cloud platforms, ensuring seamless integration and minimal downtime.
-                                                                •	Collaborated with development teams using Agile methodologies to ensure on-time delivery of both software and data integration solutions.
-                                                                •	Monitored ETL jobs during evening and weekend project releases, ensuring timely issue resolution and successful deployments.
-                                                                •	Delivered comprehensive technical documentation and project reports, improving communication between technical and non-technical teams.
-                                                                
-                                                                </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Software Development Engineer</h4>
-                                                                    <span>Accenture Solutions Pvt Ltd. (Sep 2021 - Jun 2022)</span>
-                                                                </div>
-                                                            
-                                                            </div>
-                                                            <p class="description">•	Developed dynamic user interfaces with NextJS, increasing customer satisfaction and improving application responsiveness.
-                                                                •	Designed and implemented complex ETL processes using Informatica, enabling seamless integration of data across multiple platforms.
-                                                                •	Implemented Spring Boot microservices, optimizing resource allocation and improving service scalability by 40%.
-                                                                •	Managed relational databases such as Oracle and SQL Server, optimizing queries and database performance to improve data retrieval speeds by 20%.
-                                                                •	Configured and automated CI/CD pipelines using Jenkins, reducing build times and improving deployment frequency.
-                                                                •	Developed and maintained Python scripts for data extraction, transformation, and loading, automating critical data flows and reducing manual interventions by 35%.
-                                                                •	Built and tested RESTful web services using Postman, ensuring secure and efficient data transfers between microservices.
-                                                                •	Led the integration of cloud-based data pipelines using AWS S3 and Azure Blob Storage, enhancing data availability and security for large datasets.
-                                                                •	Assisted in the deployment of applications in a Docker and Kubernetes environment, improving portability across platforms.
-                                                                •	Collaborated with cross-functional teams to define and implement data models and schemas for large-scale projects, ensuring data integrity and consistency.
-                                                                •	Managed application performance using AWS CloudWatch and Jira, reducing downtime and improving system availability.
-                                                                •	Optimized ETL workflows to handle large-scale data processing, improving data pipeline efficiency by 25% and ensuring timely data delivery for business operations.
-                                                                •	Led cloud migration efforts by configuring AWS S3 for secure data storage, ensuring system resilience and backup.
-                                                                •	Provided technical support during evening and weekend project releases, troubleshooting and resolving issues related to ETL processes and cloud data integration.
-                                                                •	Automated infrastructure monitoring using Grafana, proactively identifying system issues and improving reliability.
-                                                                
-                                                                </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                     <!-- Start Single List  -->
-                                                     <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Web Developer Intern</h4>
-                                                                    <span>The Spark Foundation (Oct 2020 - Nov 2020)</span>
-                                                                </div>
-                                                              
-                                                            </div>
-                                                            <p class="description">• In my intern experience as web develper developing web applications, I've worked on various projects including a Basic Baking system and payment gateway integration.
-                                                                • Leveraging HTML, CSS, and PHP, I've crafted interactive web interfaces that offer seamless user experiences.
-                                                                • From designing visually appealing layouts to implementing functionality for secure payment processing, I've enjoyed the creative process of bringing these projects to life.
-                                                                </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>AI Developer Intern</h4>
-                                                                    <span>SmartBridge Pvt Ltd (May 2020 - Jun 2020)</span>
-                                                                </div>
-                                                              
-                                                            </div>
-                                                            <p class="description">
-                                                                • In my AI developer intern role, I spearheaded the development of an Intelligent Customer Help Desk utilizing cutting-edge technologies such as Smart Document Understanding.
-                                                                • This involved creating intricate workflows using Node-RED, implementing serverless cloud functions for seamless integration, and leveraging AI-powered chatbots to enhance customer interactions.
-                                                                • The project aimed to streamline customer support processes by intelligently understanding and responding to inquiries, showcasing my expertise in AI-driven solutions and cloud technologies.
-                                                                </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                   
-
-                                                    <!-- Start Single List  -->
-                                                    <div class="resume-single-list">
-                                                        <div class="inner">
-                                                            <div class="heading">
-                                                                <div class="title">
-                                                                    <h4>Data Science Intern</h4>
-                                                                    <span>Exposys dataLabs (Apr 2020 - May 2020)</span>
-                                                                </div>
-                                                              
-                                                            </div>
-                                                            <p class="description">• During my internship, I focused on a data science project centered around customer segmentation to understand target customers better.
-                                                                • Employing the K-means algorithm, I analyzed a dataset containing customer information to segment them based on their annual scores and spending behaviors.
-                                                                • This involved preprocessing the data, applying clustering techniques, and interpreting the results to derive actionable insights for marketing strategies and personalized customer experiences.
-                                                                </p>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Single List  -->
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Skill List Area  -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Single Tab  -->
-
-                           
-
-        <!-- Start Contact section -->
-        <div class="rn-contact-area rn-section-gap section-separator" id="contacts">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title text-center">
-                            <span class="subtitle">Contact</span>
-                            <h2 class="title">Contact With Me</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt--50 mt_md--40 mt_sm--40 mt-contact-sm">
-                    <div class="col-lg-5">
-                        <div class="contact-about-area">
-                            <div class="thumbnail">
-                                <img src="assets/images/contact/contact1.png" alt="contact-img">
-                            </div>
-                            <div class="profile-title">
-                                <h4 class="profile-name">Zaheer Abdul</h4>
-                                <span class="profile-job">Software Engineer, Embedded Software Engineer, Full Stack Developer, Java Developer</span>
-                            </div>
-                            <div class="profile-description">
-                                <p>Seeking full-time opportunities and eager to connect! Feel free to reach out via the contact information provided.</p>
-                                <span class="profile-phone">Phone: <a href="#">+1(347)-213-3626</a></span>
-                                <span class="profile-mail">Email: <a href="mailto:zaheerabdul46@gmail.com">zaheertoday@gmail.com</a></span>
-                            </div>
-
-                            <div class="row-icons">
-                                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
-                                    <p style="margin-bottom: 1em;">&nbsp;</p>
-                                </div>
-                                
-                            </div>
-                            <div class="social-area">
-                                <div class="name">FIND WITH ME</div>
-                                <ul class="social-icons">
-                                       
-                                    <li class="linkedin-icon"><a href="https://www.linkedin.com/in/zaheerdev/"><i data-feather="linkedin"></i></a></li>
-                                    <li class="github-icon"><a href="https://github.com/zaheerabdul46"><i data-feather="github"></i></a></li>
-                                    <li class="leetcode-icon"><a href="https://leetcode.com/zaheerabdul46/"><i data-feather="code"></i></a></li> 
-                                    <li class="youtube-icon"><a href="https://www.youtube.com/channel/UCITHFRC9E8DDvs84rml7jWg"><i data-feather="youtube"></i></a></li>
-                                    <li class="hackerrank-icon"><a href="https://www.hackerrank.com/profile/zaheerabdul46"><i data-feather="zap"></i></a></li>
-                                    <li class="instagram-icon"><a href="https://www.instagram.com/zaheer__abdul/"><i data-feather="instagram"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-aos-delay="600" class="col-lg-7 contact-input">
-                        <div class="contact-form-wrapper">
-                            <div class="introduce">
-
-                                
-                                <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" onsubmit="sendEmail(event)">
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="contact-name">Your Name</label>
-                                            <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <label for="contact-phone">Phone Number</label>
-                                            <input class="form-control" name="contact-phone" id="contact-phone" type="text">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="contact-email">Email</label>
-                                            <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="subject">subject</label>
-                                            <input class="form-control form-control-sm" id="subject" name="subject" type="text">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <div class="form-group">
-                                            <label for="contact-message">Your Message</label>
-                                            <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12">
-                                        <button name="submit" type="submit" id="submit" class="rn-btn">
-                                            <span>SEND MESSAGE</span>
-                                            <i data-feather="arrow-right"></i>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Contuct section -->
-
-
-    </main>
-
-    <!-- Start Footer Area 
-    <div class="rn-footer-area rn-section-gap section-separator">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-area text-center">
-                        <p class="description mt--30"> All rights reserved by © Zaheer Abdul 2024.<a target="_blank"></a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     End Footer Area -->
-
-    <!-- JS ============================================ -->
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/modernizer.min.js"></script>
-    <script src="assets/js/vendor/feather.min.js"></script>
-    <script src="assets/js/vendor/slick.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.js"></script>
-    <script src="assets/js/vendor/text-type.js"></script>
-    <script src="assets/js/vendor/wow.js"></script>
-    <script src="assets/js/vendor/aos.js"></script>
-    <script src="assets/js/vendor/particles.js"></script>
-    <!-- main JS -->
-    <script src="assets/js/main.js"></script>
+      </div>
+      <footer class="site-footer"><a class="wordmark" href="#home"><span class="wordmark-mark">ZA</span><span>Zaheer Abdul</span></a><span>Java Full Stack Developer</span><a class="back-top" href="#home">Back to top ↑</a></footer>
+    </section>
+  </main>
 </body>
-
 </html>
